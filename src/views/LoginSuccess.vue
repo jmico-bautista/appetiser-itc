@@ -51,13 +51,19 @@
     @media only screen and ( max-width:768px ) {
         .view_login_success {
             .login_success {
-                width: 100%;
-                height: 100vh;
+                width: 90%;
+                height: 40vh;
 
                 .form {
                     &.header {
-                        height: 40%;
+                        height: 50%;
+                        
+                        .avatar {
+                            width: 100px;
+                            height: 100px;
+                        }
                     }
+
                 }
             }
         }
@@ -75,6 +81,8 @@
 
             <div class="form body">
                 <span class="title">Welcome!</span>
+                <br/>
+                <span>Please enjoy your stay.</span>
             </div>
         </div>
     </div>
